@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Index</title>
+    <meta charset="UTF-8">
+    <!-- <script type="text/javascript"></script>-->
+</head>
+
+<body>
+    <div id="submit">
+        <form name="f1" method="POST" action=>
+            <div id="account" position={ relative ; right : 80px ; top : 100px}>
+                <label for="usr">帳號：</label>
+                <input type="username" id="usr" name="usr" autocomplete="off">
+            </div>
+            <div id="password">
+                <label for="psd">密碼：</label>
+                <input type="password" id="psd" name="psd" pattern="[a-zA-Z0-9]*" required minlength="8">
+            </div>
+            <input type="submit" id="submit_button" value="送出" name="submit_button">
+        </form>
+    </div>
+</body>
+<script>
+</script>
+
+</html>
